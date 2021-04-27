@@ -1,0 +1,7 @@
+FROM alpine
+
+WORKDIR /go/src/app
+
+COPY ./desafiogo .
+
+CMD ["./desafiogo"]
